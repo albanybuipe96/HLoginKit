@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20087F5F97ED240F8AA9C1BD5199D74E /* Pods-HLoginKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C57BBC7D9F7C9CB0C66FF2CC5031A3B1 /* Pods-HLoginKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		202C1725B9C91C7893A272E09C3BB75E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2030CC0F0AC5EB2559D17D2FB7D16A4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4C11FF06A76C9E53615D307C91452951 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE572307CA316269495F7C934D9B6A2 /* ReplaceMe.swift */; };
+		757F4B9AE3465FC64514A250555909F3 /* Pods-HLoginKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2572CE31ACDBE51BE00EE2201AA06E /* Pods-HLoginKit_Tests-dummy.m */; };
+		8B637AA8DD261C92CF0280FE9CADBD72 /* HLoginKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1B3152CB85C7A06D1B815025ADF093 /* HLoginKit-dummy.m */; };
+		9A49244EE78097124B17E724E740D280 /* HLoginKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8F29C69B02372524C9D1F73EC94A633 /* HLoginKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A86FC3A3BD9878273E38BBB730192A63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C7C8D8F7C30B7D907FDAA3FC6C6CE904 /* Pods-HLoginKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0017598F4DC98BA33B10E01DCDDED6DB /* Pods-HLoginKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB0D5F0742F79ECA6267B4ECB151C69E /* Pods-HLoginKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2B843A0093723DB05C2DEDD0922951 /* Pods-HLoginKit_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0AAB10061FAF492D2AF12CD34B05551 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6844978B0F515CB3FD4716EFDE029460;
+			remoteInfo = "Pods-HLoginKit_Example";
+		};
+		B9254407A95DE91DA2EF50BB00C225D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94128D196F233DB38B9E7CBF265DA06A;
+			remoteInfo = HLoginKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0017598F4DC98BA33B10E01DCDDED6DB /* Pods-HLoginKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HLoginKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		0065EE5B23AE0736E535E47DC3F4ECF0 /* Pods-HLoginKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HLoginKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		06961C7BED90A1225C530AD705FE7056 /* Pods-HLoginKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HLoginKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1EB63CF8920A65DD48D0AEF13CD305A1 /* Pods-HLoginKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HLoginKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		210D7193E3A6E51118F12CC81D02159C /* Pods-HLoginKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HLoginKit_Example"; path = Pods_HLoginKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		319D28BC79147C68B72882F82951FC19 /* Pods-HLoginKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HLoginKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		37CD011204E6DB87A1522D1381735A7A /* Pods-HLoginKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HLoginKit_Example-Info.plist"; sourceTree = "<group>"; };
+		5C0E4B27E181E8625EEB9F517C96C1C3 /* HLoginKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HLoginKit.modulemap; sourceTree = "<group>"; };
+		6CE572307CA316269495F7C934D9B6A2 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = HLoginKit/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		71C4D2A8DF66AF785EA02B673495F416 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		80807687063358ABB69C5A0CA30FAD3C /* HLoginKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HLoginKit.release.xcconfig; sourceTree = "<group>"; };
+		84F8BCA65A864D7CE192561770C5E523 /* Pods-HLoginKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HLoginKit_Tests"; path = Pods_HLoginKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9033B03F7642D1F25731D35BB2C6AE58 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		95F42EF3F9891D6D2120808AE23CF718 /* Pods-HLoginKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HLoginKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		960362C0D2D0EDFDCE45D1DEA6778E8A /* Pods-HLoginKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HLoginKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		98A0A0F610C226799DF83C59B5DCCDF4 /* HLoginKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HLoginKit.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		9C1B3152CB85C7A06D1B815025ADF093 /* HLoginKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HLoginKit-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FF1DFD1DBD0452CCBC65C843DCED520 /* Pods-HLoginKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HLoginKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A63600499B9977887ABDF9B810AEC40E /* Pods-HLoginKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HLoginKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B3B1AE31BFE8F2F11EA33330349CEDC6 /* HLoginKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HLoginKit-Info.plist"; sourceTree = "<group>"; };
+		BB2572CE31ACDBE51BE00EE2201AA06E /* Pods-HLoginKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HLoginKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		C152F2FA15ECBEFE22EF8EEF1EF68F2E /* HLoginKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HLoginKit-prefix.pch"; sourceTree = "<group>"; };
+		C57BBC7D9F7C9CB0C66FF2CC5031A3B1 /* Pods-HLoginKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HLoginKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C9889753D6734414985D9DF00C17D328 /* Pods-HLoginKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HLoginKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		D1BF5EBFE86644B11C0D65F2AAC86A8F /* Pods-HLoginKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HLoginKit_Tests.modulemap"; sourceTree = "<group>"; };
+		D2509826AE94F0D90942E00676535769 /* HLoginKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HLoginKit; path = HLoginKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC2B843A0093723DB05C2DEDD0922951 /* Pods-HLoginKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HLoginKit_Example-dummy.m"; sourceTree = "<group>"; };
+		E73C9B97612FB4BBF1B228E6B4A63D01 /* Pods-HLoginKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HLoginKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E8F29C69B02372524C9D1F73EC94A633 /* HLoginKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HLoginKit-umbrella.h"; sourceTree = "<group>"; };
+		F4AE2142A6A8A88BEC31B75AE8212700 /* HLoginKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HLoginKit.debug.xcconfig; sourceTree = "<group>"; };
+		FE3AAEFF31F1EBE1573620A5945FEC7F /* Pods-HLoginKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HLoginKit_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		692CB7F1D395A0A2C4EA71453FAC691C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202C1725B9C91C7893A272E09C3BB75E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B77C70BCB02444601D18380669B5A3E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2030CC0F0AC5EB2559D17D2FB7D16A4B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7A88A569F579E61CE75B2814146CCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A86FC3A3BD9878273E38BBB730192A63 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29E0BDC465A3FD087BDEB4D700EAAF1B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				98A0A0F610C226799DF83C59B5DCCDF4 /* HLoginKit.podspec */,
+				71C4D2A8DF66AF785EA02B673495F416 /* LICENSE */,
+				9033B03F7642D1F25731D35BB2C6AE58 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2C32CFA8D6BA468B958324D80F67995B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2509826AE94F0D90942E00676535769 /* HLoginKit */,
+				210D7193E3A6E51118F12CC81D02159C /* Pods-HLoginKit_Example */,
+				84F8BCA65A864D7CE192561770C5E523 /* Pods-HLoginKit_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		343D6C1987CEB7EE9C7C1BCA3B724CB1 /* HLoginKit */ = {
+			isa = PBXGroup;
+			children = (
+				6CE572307CA316269495F7C934D9B6A2 /* ReplaceMe.swift */,
+				29E0BDC465A3FD087BDEB4D700EAAF1B /* Pod */,
+				76755EA7A9A7A5839F85F950A2BED157 /* Support Files */,
+			);
+			name = HLoginKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4DBC4F234A64649A28A8FAEAE25A1F02 /* Pods-HLoginKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FE3AAEFF31F1EBE1573620A5945FEC7F /* Pods-HLoginKit_Example.modulemap */,
+				319D28BC79147C68B72882F82951FC19 /* Pods-HLoginKit_Example-acknowledgements.markdown */,
+				9FF1DFD1DBD0452CCBC65C843DCED520 /* Pods-HLoginKit_Example-acknowledgements.plist */,
+				DC2B843A0093723DB05C2DEDD0922951 /* Pods-HLoginKit_Example-dummy.m */,
+				0065EE5B23AE0736E535E47DC3F4ECF0 /* Pods-HLoginKit_Example-frameworks.sh */,
+				37CD011204E6DB87A1522D1381735A7A /* Pods-HLoginKit_Example-Info.plist */,
+				0017598F4DC98BA33B10E01DCDDED6DB /* Pods-HLoginKit_Example-umbrella.h */,
+				95F42EF3F9891D6D2120808AE23CF718 /* Pods-HLoginKit_Example.debug.xcconfig */,
+				1EB63CF8920A65DD48D0AEF13CD305A1 /* Pods-HLoginKit_Example.release.xcconfig */,
+			);
+			name = "Pods-HLoginKit_Example";
+			path = "Target Support Files/Pods-HLoginKit_Example";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		76755EA7A9A7A5839F85F950A2BED157 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C0E4B27E181E8625EEB9F517C96C1C3 /* HLoginKit.modulemap */,
+				9C1B3152CB85C7A06D1B815025ADF093 /* HLoginKit-dummy.m */,
+				B3B1AE31BFE8F2F11EA33330349CEDC6 /* HLoginKit-Info.plist */,
+				C152F2FA15ECBEFE22EF8EEF1EF68F2E /* HLoginKit-prefix.pch */,
+				E8F29C69B02372524C9D1F73EC94A633 /* HLoginKit-umbrella.h */,
+				F4AE2142A6A8A88BEC31B75AE8212700 /* HLoginKit.debug.xcconfig */,
+				80807687063358ABB69C5A0CA30FAD3C /* HLoginKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HLoginKit";
+			sourceTree = "<group>";
+		};
+		7B834D7F3FE976779FDFDE69988C1F07 /* Pods-HLoginKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D1BF5EBFE86644B11C0D65F2AAC86A8F /* Pods-HLoginKit_Tests.modulemap */,
+				06961C7BED90A1225C530AD705FE7056 /* Pods-HLoginKit_Tests-acknowledgements.markdown */,
+				A63600499B9977887ABDF9B810AEC40E /* Pods-HLoginKit_Tests-acknowledgements.plist */,
+				BB2572CE31ACDBE51BE00EE2201AA06E /* Pods-HLoginKit_Tests-dummy.m */,
+				C9889753D6734414985D9DF00C17D328 /* Pods-HLoginKit_Tests-Info.plist */,
+				C57BBC7D9F7C9CB0C66FF2CC5031A3B1 /* Pods-HLoginKit_Tests-umbrella.h */,
+				E73C9B97612FB4BBF1B228E6B4A63D01 /* Pods-HLoginKit_Tests.debug.xcconfig */,
+				960362C0D2D0EDFDCE45D1DEA6778E8A /* Pods-HLoginKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-HLoginKit_Tests";
+			path = "Target Support Files/Pods-HLoginKit_Tests";
+			sourceTree = "<group>";
+		};
+		91ED90FCA86CD9B69EE77F742A428882 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DBC4F234A64649A28A8FAEAE25A1F02 /* Pods-HLoginKit_Example */,
+				7B834D7F3FE976779FDFDE69988C1F07 /* Pods-HLoginKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E2AA41D719B34A4A12D9F923DE05CD11 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2C32CFA8D6BA468B958324D80F67995B /* Products */,
+				91ED90FCA86CD9B69EE77F742A428882 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2AA41D719B34A4A12D9F923DE05CD11 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				343D6C1987CEB7EE9C7C1BCA3B724CB1 /* HLoginKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B23A229849C4142AC1D69BC3DA560178 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7C8D8F7C30B7D907FDAA3FC6C6CE904 /* Pods-HLoginKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5564C2A78699A586445381BCA4D6B28 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A49244EE78097124B17E724E740D280 /* HLoginKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC71D577044974B00567042702B457AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20087F5F97ED240F8AA9C1BD5199D74E /* Pods-HLoginKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1BE97B0DA06808E98982A5B53669B73B /* Pods-HLoginKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC690BB6DC7A5CAF903196E82209A48C /* Build configuration list for PBXNativeTarget "Pods-HLoginKit_Tests" */;
+			buildPhases = (
+				CC71D577044974B00567042702B457AD /* Headers */,
+				CFCD8B8E53907C7914BFD78A8028A967 /* Sources */,
+				692CB7F1D395A0A2C4EA71453FAC691C /* Frameworks */,
+				249FD6E8523A641CD2859C1C0241BC0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66AEFA13CC96261509083A6D33C546B3 /* PBXTargetDependency */,
+			);
+			name = "Pods-HLoginKit_Tests";
+			productName = Pods_HLoginKit_Tests;
+			productReference = 84F8BCA65A864D7CE192561770C5E523 /* Pods-HLoginKit_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		6844978B0F515CB3FD4716EFDE029460 /* Pods-HLoginKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E58E4BAE570A1D7E8D396EE1E8938A33 /* Build configuration list for PBXNativeTarget "Pods-HLoginKit_Example" */;
+			buildPhases = (
+				B23A229849C4142AC1D69BC3DA560178 /* Headers */,
+				71050130F6DB0B7098A1F28CA10313BD /* Sources */,
+				DD7A88A569F579E61CE75B2814146CCF /* Frameworks */,
+				4BA23CF3434B8BF446EE90156A12DCE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F339E868010FEAD3B4CA7ECE0C2CEFD9 /* PBXTargetDependency */,
+			);
+			name = "Pods-HLoginKit_Example";
+			productName = Pods_HLoginKit_Example;
+			productReference = 210D7193E3A6E51118F12CC81D02159C /* Pods-HLoginKit_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		94128D196F233DB38B9E7CBF265DA06A /* HLoginKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77CF2D303D120B75B640CBCE798038BB /* Build configuration list for PBXNativeTarget "HLoginKit" */;
+			buildPhases = (
+				C5564C2A78699A586445381BCA4D6B28 /* Headers */,
+				35773BBF3812D9D45A4A4DAD0A9562EC /* Sources */,
+				B77C70BCB02444601D18380669B5A3E0 /* Frameworks */,
+				1572F796F66601E3718FABA194E071C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HLoginKit;
+			productName = HLoginKit;
+			productReference = D2509826AE94F0D90942E00676535769 /* HLoginKit */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2C32CFA8D6BA468B958324D80F67995B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94128D196F233DB38B9E7CBF265DA06A /* HLoginKit */,
+				6844978B0F515CB3FD4716EFDE029460 /* Pods-HLoginKit_Example */,
+				1BE97B0DA06808E98982A5B53669B73B /* Pods-HLoginKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1572F796F66601E3718FABA194E071C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		249FD6E8523A641CD2859C1C0241BC0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BA23CF3434B8BF446EE90156A12DCE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35773BBF3812D9D45A4A4DAD0A9562EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B637AA8DD261C92CF0280FE9CADBD72 /* HLoginKit-dummy.m in Sources */,
+				4C11FF06A76C9E53615D307C91452951 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71050130F6DB0B7098A1F28CA10313BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB0D5F0742F79ECA6267B4ECB151C69E /* Pods-HLoginKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFCD8B8E53907C7914BFD78A8028A967 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				757F4B9AE3465FC64514A250555909F3 /* Pods-HLoginKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66AEFA13CC96261509083A6D33C546B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HLoginKit_Example";
+			target = 6844978B0F515CB3FD4716EFDE029460 /* Pods-HLoginKit_Example */;
+			targetProxy = A0AAB10061FAF492D2AF12CD34B05551 /* PBXContainerItemProxy */;
+		};
+		F339E868010FEAD3B4CA7ECE0C2CEFD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HLoginKit;
+			target = 94128D196F233DB38B9E7CBF265DA06A /* HLoginKit */;
+			targetProxy = B9254407A95DE91DA2EF50BB00C225D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E923CA89860DA3D369CFA8045B6A15B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4AE2142A6A8A88BEC31B75AE8212700 /* HLoginKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HLoginKit/HLoginKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HLoginKit/HLoginKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HLoginKit/HLoginKit.modulemap";
+				PRODUCT_MODULE_NAME = HLoginKit;
+				PRODUCT_NAME = HLoginKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1C3063D5ED9AC177EB9920AC81663C8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 960362C0D2D0EDFDCE45D1DEA6778E8A /* Pods-HLoginKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HLoginKit_Tests/Pods-HLoginKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HLoginKit_Tests/Pods-HLoginKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1ED9E724C361072A6BD1C088407988B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95F42EF3F9891D6D2120808AE23CF718 /* Pods-HLoginKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HLoginKit_Example/Pods-HLoginKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HLoginKit_Example/Pods-HLoginKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		265D82EB416AF6DDDE2D8FE6B6D2801C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EB63CF8920A65DD48D0AEF13CD305A1 /* Pods-HLoginKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HLoginKit_Example/Pods-HLoginKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HLoginKit_Example/Pods-HLoginKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2CEECDC4FF3E8D35063C675CE57F1366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80807687063358ABB69C5A0CA30FAD3C /* HLoginKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HLoginKit/HLoginKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HLoginKit/HLoginKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HLoginKit/HLoginKit.modulemap";
+				PRODUCT_MODULE_NAME = HLoginKit;
+				PRODUCT_NAME = HLoginKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5F392403803764863AFAB6F57D6E7361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E73C9B97612FB4BBF1B228E6B4A63D01 /* Pods-HLoginKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HLoginKit_Tests/Pods-HLoginKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HLoginKit_Tests/Pods-HLoginKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77CF2D303D120B75B640CBCE798038BB /* Build configuration list for PBXNativeTarget "HLoginKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E923CA89860DA3D369CFA8045B6A15B /* Debug */,
+				2CEECDC4FF3E8D35063C675CE57F1366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E58E4BAE570A1D7E8D396EE1E8938A33 /* Build configuration list for PBXNativeTarget "Pods-HLoginKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ED9E724C361072A6BD1C088407988B7 /* Debug */,
+				265D82EB416AF6DDDE2D8FE6B6D2801C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC690BB6DC7A5CAF903196E82209A48C /* Build configuration list for PBXNativeTarget "Pods-HLoginKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F392403803764863AFAB6F57D6E7361 /* Debug */,
+				1C3063D5ED9AC177EB9920AC81663C8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

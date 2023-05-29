@@ -1,0 +1,16 @@
+PODS:
+  - HLoginKit (0.1.0)
+
+DEPENDENCIES:
+  - HLoginKit (from `../`)
+
+EXTERNAL SOURCES:
+  HLoginKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HLoginKit: 7cb62c0910c39019ebf0ce4057c80e7b75534ebd
+
+PODFILE CHECKSUM: ac0b7b0f35995e9ec2ac92e5b591a6ff844c2766
+
+COCOAPODS: 1.12.0
